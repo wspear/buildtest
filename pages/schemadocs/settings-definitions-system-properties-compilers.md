@@ -16,10 +16,35 @@ Declare compiler section for defining system compilers that can be referenced in
 
 # compilers Properties
 
-| Property              | Type     | Required | Nullable       | Defined by                                                                                                                                                                                    |
-| :-------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [find](#find)         | `object` | Optional | cannot be null | [buildtest configuration schema](settings-definitions-system-properties-compilers-properties-find.md "settings.schema.json#/definitions/system/properties/compilers/properties/find")         |
-| [compiler](#compiler) | `object` | Optional | cannot be null | [buildtest configuration schema](settings-definitions-system-properties-compilers-properties-compiler.md "settings.schema.json#/definitions/system/properties/compilers/properties/compiler") |
+| Property                  | Type     | Required | Nullable       | Defined by                                                                                                                                                                                    |
+| :------------------------ | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [modulepath](#modulepath) | `array`  | Optional | cannot be null | [buildtest configuration schema](definitions-definitions-list_of_strings.md "settings.schema.json#/definitions/system/properties/compilers/properties/modulepath")                            |
+| [find](#find)             | `object` | Optional | cannot be null | [buildtest configuration schema](settings-definitions-system-properties-compilers-properties-find.md "settings.schema.json#/definitions/system/properties/compilers/properties/find")         |
+| [compiler](#compiler)     | `object` | Optional | cannot be null | [buildtest configuration schema](settings-definitions-system-properties-compilers-properties-compiler.md "settings.schema.json#/definitions/system/properties/compilers/properties/compiler") |
+
+## modulepath
+
+
+
+`modulepath`
+
+*   is optional
+
+*   Type: `string[]`
+
+*   cannot be null
+
+*   defined in: [buildtest configuration schema](definitions-definitions-list_of_strings.md "settings.schema.json#/definitions/system/properties/compilers/properties/modulepath")
+
+### modulepath Type
+
+`string[]`
+
+### modulepath Constraints
+
+**minimum number of items**: the minimum number of items for this array is: `1`
+
+**unique items**: all items in this array must be unique. Duplicates are not allowed.
 
 ## find
 
