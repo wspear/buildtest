@@ -1,7 +1,7 @@
 # Untitled integer in buildtest configuration schema Schema
 
 ```txt
-settings.schema.json#/definitions/pbs/properties/max_jobs
+settings.schema.json#/definitions/max_jobs
 ```
 
 Maximum number of jobs that can be run at a given time for a particular executor

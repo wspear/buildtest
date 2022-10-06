@@ -1,20 +1,20 @@
 # Untitled object in JSON Schema Definitions File.  Schema
 
 ```txt
-definitions.schema.json#/definitions/metrics/patternProperties/^.*$
+definitions.schema.json#/definitions/metrics_field
 ```
 
-Name of metric
+
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Forbidden             | none                | [definitions.schema.json\*](../out/definitions.schema.json "open original schema") |
 
-## ^.\*$ Type
+## metrics\_field Type
 
 `object` ([Details](definitions-definitions-metrics_field.md))
 
-# ^.\*$ Properties
+# metrics\_field Properties
 
 | Property        | Type     | Required | Nullable       | Defined by                                                                                                                               |
 | :-------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |

@@ -1,7 +1,7 @@
 # Untitled string in JSON Schema Definitions File.  Schema
 
 ```txt
-definitions.schema.json#/definitions/needs/items/0/oneOf/1/patternProperties/^.*$/properties/state
+definitions.schema.json#/definitions/state
 ```
 
 explicitly mark state of test regardless of status calculation

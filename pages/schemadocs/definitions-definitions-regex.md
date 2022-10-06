@@ -1,7 +1,7 @@
 # Untitled object in JSON Schema Definitions File.  Schema
 
 ```txt
-definitions.schema.json#/definitions/metrics_field/properties/regex
+definitions.schema.json#/definitions/regex
 ```
 
 Perform regular expression search using `re.search` python module on stdout/stderr stream for reporting if test `PASS`.
