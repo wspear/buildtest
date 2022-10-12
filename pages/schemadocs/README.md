@@ -44,6 +44,8 @@
 
 *   [Untitled object in buildtest configuration schema](./settings-definitions-system-properties-compilers.md "Declare compiler section for defining system compilers that can be referenced in buildspec") – `settings.schema.json#/definitions/system/properties/compilers`
 
+*   [Untitled object in buildtest configuration schema](./settings-definitions-system-properties-compilers-properties-prgenv_modules.md) – `settings.schema.json#/definitions/system/properties/compilers/properties/prgenv_modules`
+
 *   [Untitled object in buildtest configuration schema](./settings-definitions-system-properties-compilers-properties-find.md "Find compilers by specifying regular expression that is applied to modulefile names") – `settings.schema.json#/definitions/system/properties/compilers/properties/find`
 
 *   [Untitled object in buildtest configuration schema](./settings-definitions-system-properties-compilers-properties-compiler.md "Start of compiler declaration") – `settings.schema.json#/definitions/system/properties/compilers/properties/compiler`
