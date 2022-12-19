@@ -16,9 +16,38 @@ definitions.schema.json#/definitions/metrics_field
 
 # metrics\_field Properties
 
-| Property        | Type     | Required | Nullable       | Defined by                                                                                                                               |
-| :-------------- | :------- | :------- | :------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
-| [regex](#regex) | `object` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-regex.md "definitions.schema.json#/definitions/metrics_field/properties/regex") |
+| Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                      |
+| :-------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [type](#type)   | `string` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-metrics_field-properties-type.md "definitions.schema.json#/definitions/metrics_field/properties/type") |
+| [regex](#regex) | `object` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-regex.md "definitions.schema.json#/definitions/metrics_field/properties/regex")                        |
+
+## type
+
+Specify python data-type (str, int, float) to convert metric.
+
+`type`
+
+*   is optional
+
+*   Type: `string`
+
+*   cannot be null
+
+*   defined in: [JSON Schema Definitions File. ](definitions-definitions-metrics_field-properties-type.md "definitions.schema.json#/definitions/metrics_field/properties/type")
+
+### type Type
+
+`string`
+
+### type Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value     | Explanation |
+| :-------- | :---------- |
+| `"str"`   |             |
+| `"int"`   |             |
+| `"float"` |             |
 
 ## regex
 

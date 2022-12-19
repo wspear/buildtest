@@ -22,6 +22,8 @@
 
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-status-properties-runtime.md "The runtime section will pass test based on min and max values and compare with actual runtime") – `definitions.schema.json#/definitions/status/properties/runtime`
 
+*   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_ge-items.md) – `definitions.schema.json#/definitions/status/properties/assert_ge/items`
+
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-needs-items-0-oneof-1.md) – `definitions.schema.json#/definitions/needs/items/0/oneOf/1`
 
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-regex.md "Perform regular expression search using re") – `definitions.schema.json#/definitions/regex`
@@ -143,6 +145,8 @@
 *   [Untitled object in spack schema version](./spack-definitions-test.md) – `spack.schema.json#/definitions/test`
 
 ### Arrays
+
+*   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_ge.md "Perform assertion of greater and equal (>=) with reference value") – `definitions.schema.json#/definitions/status/properties/assert_ge`
 
 *   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-module-properties-swap.md "Swap modules using module swap") – `definitions.schema.json#/definitions/module/properties/swap`
 
