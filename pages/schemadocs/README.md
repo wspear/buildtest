@@ -24,6 +24,8 @@
 
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_ge-items.md) – `definitions.schema.json#/definitions/status/properties/assert_ge/items`
 
+*   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_eq-items.md) – `definitions.schema.json#/definitions/status/properties/assert_eq/items`
+
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-needs-items-0-oneof-1.md) – `definitions.schema.json#/definitions/needs/items/0/oneOf/1`
 
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-regex.md "Perform regular expression search using re") – `definitions.schema.json#/definitions/regex`
@@ -147,6 +149,8 @@
 ### Arrays
 
 *   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_ge.md "Perform assertion of greater and equal (>=) with reference value") – `definitions.schema.json#/definitions/status/properties/assert_ge`
+
+*   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_eq.md "Perform assertion of equality (=) with reference value") – `definitions.schema.json#/definitions/status/properties/assert_eq`
 
 *   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-module-properties-swap.md "Swap modules using module swap") – `definitions.schema.json#/definitions/module/properties/swap`
 

@@ -18,7 +18,7 @@ definitions.schema.json#/definitions/metrics_field
 
 | Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                      |
 | :-------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)   | `string` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-metrics_field-properties-type.md "definitions.schema.json#/definitions/metrics_field/properties/type") |
+| [type](#type)   | `string` | Required | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-metrics_field-properties-type.md "definitions.schema.json#/definitions/metrics_field/properties/type") |
 | [regex](#regex) | `object` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-regex.md "definitions.schema.json#/definitions/metrics_field/properties/regex")                        |
 
 ## type
@@ -27,7 +27,7 @@ Specify python data-type (str, int, float) to convert metric.
 
 `type`
 
-*   is optional
+*   is required
 
 *   Type: `string`
 

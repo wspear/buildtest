@@ -228,7 +228,7 @@ Reference this group by using
 
 | Property        | Type     | Required | Nullable       | Defined by                                                                                                                                                      |
 | :-------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type)   | `string` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-metrics_field-properties-type.md "definitions.schema.json#/definitions/metrics_field/properties/type") |
+| [type](#type)   | `string` | Required | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-metrics_field-properties-type.md "definitions.schema.json#/definitions/metrics_field/properties/type") |
 | [regex](#regex) | `object` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-regex.md "definitions.schema.json#/definitions/metrics_field/properties/regex")                        |
 
 ### type
@@ -237,7 +237,7 @@ Specify python data-type (str, int, float) to convert metric.
 
 `type`
 
-*   is optional
+*   is required
 
 *   Type: `string`
 
@@ -346,6 +346,7 @@ Reference this group by using
 | [regex](#regex-1)                     | `object` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-regex.md "definitions.schema.json#/definitions/status/properties/regex")                                       |
 | [runtime](#runtime)                   | `object` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-runtime.md "definitions.schema.json#/definitions/status/properties/runtime")                 |
 | [assert\_ge](#assert_ge)              | `array`  | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_ge.md "definitions.schema.json#/definitions/status/properties/assert_ge")             |
+| [assert\_eq](#assert_eq)              | `array`  | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_eq.md "definitions.schema.json#/definitions/status/properties/assert_eq")             |
 | [state](#state)                       | `string` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-state.md "definitions.schema.json#/definitions/status/properties/state")                     |
 
 ### slurm\_job\_state
@@ -509,6 +510,24 @@ Perform assertion of greater and equal (>=) with reference value
 #### assert\_ge Type
 
 `object[]` ([Details](definitions-definitions-status-properties-assert_ge-items.md))
+
+### assert\_eq
+
+Perform assertion of equality (=) with reference value
+
+`assert_eq`
+
+*   is optional
+
+*   Type: `object[]` ([Details](definitions-definitions-status-properties-assert_eq-items.md))
+
+*   cannot be null
+
+*   defined in: [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_eq.md "definitions.schema.json#/definitions/status/properties/assert_eq")
+
+#### assert\_eq Type
+
+`object[]` ([Details](definitions-definitions-status-properties-assert_eq-items.md))
 
 ### state
 
