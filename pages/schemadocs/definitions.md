@@ -347,6 +347,7 @@ Reference this group by using
 | [runtime](#runtime)                   | `object` | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-runtime.md "definitions.schema.json#/definitions/status/properties/runtime")                 |
 | [assert\_ge](#assert_ge)              | `array`  | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_ge.md "definitions.schema.json#/definitions/status/properties/assert_ge")             |
 | [assert\_le](#assert_le)              | `array`  | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_le.md "definitions.schema.json#/definitions/status/properties/assert_le")             |
+| [assert\_gt](#assert_gt)              | `array`  | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_gt.md "definitions.schema.json#/definitions/status/properties/assert_gt")             |
 | [assert\_eq](#assert_eq)              | `array`  | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_eq.md "definitions.schema.json#/definitions/status/properties/assert_eq")             |
 | [assert\_range](#assert_range)        | `array`  | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_range.md "definitions.schema.json#/definitions/status/properties/assert_range")       |
 | [exists](#exists)                     | `array`  | Optional | cannot be null | [JSON Schema Definitions File. ](definitions-definitions-list_of_strings.md "definitions.schema.json#/definitions/status/properties/exists")                            |
@@ -533,6 +534,24 @@ Perform assertion of less than and equal (<=) with reference value
 #### assert\_le Type
 
 `object[]` ([Details](definitions-definitions-status-properties-assert_le-items.md))
+
+### assert\_gt
+
+Perform assertion of greater than (>) with reference value
+
+`assert_gt`
+
+*   is optional
+
+*   Type: `object[]` ([Details](definitions-definitions-status-properties-assert_gt-items.md))
+
+*   cannot be null
+
+*   defined in: [JSON Schema Definitions File. ](definitions-definitions-status-properties-assert_gt.md "definitions.schema.json#/definitions/status/properties/assert_gt")
+
+#### assert\_gt Type
+
+`object[]` ([Details](definitions-definitions-status-properties-assert_gt-items.md))
 
 ### assert\_eq
 

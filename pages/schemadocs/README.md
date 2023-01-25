@@ -26,6 +26,8 @@
 
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_le-items.md) – `definitions.schema.json#/definitions/status/properties/assert_le/items`
 
+*   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_gt-items.md) – `definitions.schema.json#/definitions/status/properties/assert_gt/items`
+
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_eq-items.md) – `definitions.schema.json#/definitions/status/properties/assert_eq/items`
 
 *   [Untitled object in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_range-items.md) – `definitions.schema.json#/definitions/status/properties/assert_range/items`
@@ -155,6 +157,8 @@
 *   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_ge.md "Perform assertion of greater and equal (>=) with reference value") – `definitions.schema.json#/definitions/status/properties/assert_ge`
 
 *   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_le.md "Perform assertion of less than and equal (<=) with reference value") – `definitions.schema.json#/definitions/status/properties/assert_le`
+
+*   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_gt.md "Perform assertion of greater than (>) with reference value") – `definitions.schema.json#/definitions/status/properties/assert_gt`
 
 *   [Untitled array in JSON Schema Definitions File. ](./definitions-definitions-status-properties-assert_eq.md "Perform assertion of equality (=) with reference value") – `definitions.schema.json#/definitions/status/properties/assert_eq`
 
